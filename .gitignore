@@ -70,3 +70,6 @@ Other/
 
 # idea folder
 .idea/
+
+# sge stuff
+**/sge*
