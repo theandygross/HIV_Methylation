@@ -11,6 +11,28 @@ Finally all of the analyses done here are represented in IPython notebooks.  Thi
 
 <b>For step by step running instructions see [Guide to Running](./Guide_to_Running.ipynb)</b>
 
+## Main Data Analysis
+
+Here is where I do the main data analysis for the manuscript.   
+* [__Unsupervised Age HIV Analysis__](./Unsupervised_Age_HIV_Analysis.ipynb)   
+Unsupervised analysis of age associated probes with the aim of showing a shared influence of age and HIV on the methylome. This contains the code for the generation of Figure 1. 
+* [__HIV Age Advancment__](./HIV_Age_Advancement.ipynb)  
+Here I read in the data and run the methylation age models.  
+* [__HIV Age Advancement: Confounders__](./HIV_Age_Advancement_Confounders.ipynb)  
+Here I am looking at confounding from patients' blood composition as well as association of age advancment with other clinical variables that we have available. 
+* [__Figure 2__](./Figure2.ipynb)  
+Generation of Figure 2 for the manuscript. 
+* [__Validation_figure__](./Validation/Validation_Figure.ipynb)   
+Generation of Figure 3 of the manuscript. 
+* [__Figure 3__](./Figure3.ipynb)   
+Generation of Figure 4 for the manuscript. Figure 3 got added in revisions, so I'm keeping the name consistent to not lose the version control. 
+* [__Figure 5_top__](./new_fig_5_top.ipynb)  
+Generation of Figure 5a and 5b for the manuscript. Also includes a look at general disorder in response to age and HIV as well as some post-hoc analysis on the HLA and sourounding regions. 
+* [__Figure_5_bottom__](./Validation/new_fig_5_bottom.ipynb)   
+Generation of Figure 5c-f for the manuscript.
+
+
+
 ## Dependencies
 
 This code uses a number of features in the scientific python stack as well as a small set of standard R libraries. Thus far, this code has only been tested in a Linux enviroment, it may take some modification to run on other operating systems.
